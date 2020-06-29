@@ -57,7 +57,7 @@ import { ProjectDetailsComponent } from './components/pages/project-details/proj
     ProjectDetailsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
